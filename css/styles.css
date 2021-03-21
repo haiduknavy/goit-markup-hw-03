@@ -67,6 +67,8 @@ body {
 .wrap {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 /* Стилизация header */
 .header {
@@ -105,11 +107,14 @@ body {
   font-size: 26px;
   line-height: 1.2;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-footer {
   display: inline-block;
   color: var(--main-color);
-  padding-top: 60px;
+  margin-right: 0;
+  padding-top: 0;
   padding-bottom: 20px;
 }
 .logo span {
@@ -137,11 +142,13 @@ body {
 .hero {
   background-color: var(--section-color-dark);
   min-height: 100vh;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .hero-container {
   width: calc(100% / 12 * 6);
-  padding-top: 208px;
-  padding-bottom: 200px;
+  padding-top: 112px;
+  padding-bottom: 106px;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -184,15 +191,17 @@ body {
 .our-principles-title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .our-principles-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--font-color-dark);
+  margin-bottom: 0;
 }
 .what-we-do {
   text-align: center;
@@ -207,11 +216,11 @@ body {
 }
 .our-team {
   background-color: var(--section-color-light);
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .our-team-title {
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -272,7 +281,7 @@ body {
 }
 .content-portfolio .wrap {
   text-align: left;
-  padding-left: 24px;
+  padding: 20px 24px;
   border-right: 1px solid var(--card-border-color);
   border-left: 1px solid var(--card-border-color);
   border-bottom: 1px solid var(--card-border-color);
@@ -282,11 +291,11 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-bottom: 0;
+  margin-bottom: 4px;
 }
 .portfolio-text {
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--font-color-dark);
   font-weight: normal;
@@ -295,8 +304,7 @@ body {
 /* Стилизация footer */
 .footer {
   background-color: var(--section-color-dark);
-}
-.footer-adress {
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 .footer-adress:nth-child(2) {
@@ -307,7 +315,7 @@ body {
   color: var(--main-color);
 }
 .footer-adress-item:not(:last-child) {
-  margin-bottom: 9px;
+  padding-bottom: 9px;
 }
 .footer .link-contact {
   color: var(--footer-link-color);
@@ -317,6 +325,8 @@ body {
 .portfolio-btn:focus {
   color: var(--main-color);
   background-color: var(--hover-focus-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .link-nav:hover,
 .link-nav:focus,
